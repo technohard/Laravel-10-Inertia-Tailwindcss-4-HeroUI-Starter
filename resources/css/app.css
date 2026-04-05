@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "./hero.js";
+
+@source "../../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}";
+
+@layer theme, base, components, utilities;
+
+@custom-variant dark (&:is(.dark *));
+
+/* Basic custom overrides to make the starter look nice out of the box if needed */
+html, body {
+    @apply antialiased h-full;
+}
