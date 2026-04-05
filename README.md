@@ -1,66 +1,253 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Laravel 10 · Inertia · Tailwind CSS 4 · HeroUI Starter
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="https://img.shields.io/badge/Laravel-10-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel 10" />
+  <img src="https://img.shields.io/badge/Inertia.js-v2-6C5CE7?style=for-the-badge&logo=inertia&logoColor=white" alt="Inertia.js v2" />
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React 19" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS 4" />
+  <img src="https://img.shields.io/badge/HeroUI-v3-000000?style=for-the-badge&logoColor=white" alt="HeroUI v3" />
+  <img src="https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite 8" />
 </p>
 
-## About Laravel
+<p align="center">
+  A modern, opinionated starter kit for building full-stack web applications with <strong>Laravel 10</strong>, <strong>Inertia.js v2</strong>, <strong>React 19</strong>, <strong>Tailwind CSS v4</strong>, and <strong>HeroUI v3</strong> — all wired together with <strong>Vite 8</strong>.
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+  <a href="https://github.com/technohard/Laravel-10-Inertia-Tailwindcss-4-HeroUI-Starter">
+    <img src="https://img.shields.io/github/stars/technohard/Laravel-10-Inertia-Tailwindcss-4-HeroUI-Starter?style=social" alt="GitHub Stars" />
+  </a>
+  <a href="https://github.com/technohard/Laravel-10-Inertia-Tailwindcss-4-HeroUI-Starter/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/technohard/Laravel-10-Inertia-Tailwindcss-4-HeroUI-Starter" alt="License" />
+  </a>
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## ✨ Features
 
-## Learning Laravel
+- ⚡ **Laravel 10** — Robust PHP backend with elegant syntax
+- 🔄 **Inertia.js v2** — Build SPAs without building an API; server-driven, client-rendered
+- ⚛️ **React 19** — Latest React with modern hooks and concurrent features
+- 🎨 **Tailwind CSS v4** — CSS-first configuration, lightning-fast builds
+- 🧩 **HeroUI v3** — Beautiful, accessible React component library (formerly NextUI)
+- 🎬 **Framer Motion** — Production-ready animation library for React
+- 🚀 **Vite 8** — Next-generation frontend tooling with instant HMR
+- 🌗 **Dark Mode Ready** — Pre-configured class-based dark mode support
+- 📦 **Zero Config** — Everything is pre-wired and ready to go
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 📋 Requirements
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+| Requirement | Version  |
+| ----------- | -------- |
+| PHP         | ≥ 8.1    |
+| Composer    | ≥ 2.x    |
+| Node.js     | ≥ 18.x   |
+| npm         | ≥ 9.x    |
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 🚀 Getting Started
 
-### Premium Partners
+### 1. Clone the repository
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+```bash
+git clone https://github.com/technohard/Laravel-10-Inertia-Tailwindcss-4-HeroUI-Starter.git
+cd Laravel-10-Inertia-Tailwindcss-4-HeroUI-Starter
+```
 
-## Contributing
+### 2. Install dependencies
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+```bash
+# Backend
+composer install
 
-## Code of Conduct
+# Frontend
+npm install
+```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 3. Environment setup
 
-## Security Vulnerabilities
+```bash
+cp .env.example .env
+php artisan key:generate
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 4. Run the application
 
-## License
+Open **two terminal windows** and run:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```bash
+# Terminal 1 — Laravel dev server
+php artisan serve
+
+# Terminal 2 — Vite dev server (HMR)
+npm run dev
+```
+
+Visit **[http://localhost:8000](http://localhost:8000)** in your browser.
+
+---
+
+## 🗂️ Project Structure
+
+```
+├── app/                    # Laravel application (Models, Controllers, etc.)
+├── resources/
+│   ├── css/
+│   │   ├── app.css         # Tailwind CSS v4 entry (CSS-first config)
+│   │   └── hero.js         # HeroUI theme plugin configuration
+│   ├── js/
+│   │   ├── app.jsx         # Inertia + React entry point
+│   │   ├── bootstrap.js    # Axios & global bootstrapping
+│   │   └── Pages/          # Inertia page components (.jsx)
+│   │       └── Welcome.jsx # Default landing page
+│   └── views/
+│       └── app.blade.php   # Root Blade template (Inertia shell)
+├── routes/
+│   └── web.php             # Web routes (Inertia::render)
+├── vite.config.js          # Vite 8 config (Tailwind + Laravel + React)
+├── package.json            # Frontend dependencies
+└── composer.json           # Backend dependencies
+```
+
+---
+
+## ⚙️ Configuration Details
+
+### Tailwind CSS v4 (CSS-first)
+
+Tailwind CSS v4 uses a **CSS-first** configuration approach. All config lives in `resources/css/app.css`:
+
+```css
+@import "tailwindcss";
+@plugin "./hero.js";
+
+@source "../../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}";
+
+@layer theme, base, components, utilities;
+
+@custom-variant dark (&:is(.dark *));
+```
+
+### HeroUI Theme Plugin
+
+The HeroUI theme is configured in `resources/css/hero.js`:
+
+```js
+import { heroui } from "@heroui/theme";
+
+export default heroui({
+  themes: {
+    light: {},
+    dark: {},
+  },
+});
+```
+
+You can customize colors, fonts, and spacing by extending the `light` and `dark` theme objects. See the [HeroUI Theming Docs](https://heroui.com/docs/customization/theme) for details.
+
+### Vite Configuration
+
+`vite.config.js` wires together Tailwind CSS, Laravel, and React plugins:
+
+```js
+import { defineConfig } from 'vite';
+import laravel from 'laravel-vite-plugin';
+import react from '@vitejs/plugin-react';
+import tailwindcss from '@tailwindcss/vite';
+
+export default defineConfig({
+    plugins: [
+        tailwindcss(),
+        laravel({
+            input: ['resources/css/app.css', 'resources/js/app.jsx'],
+            refresh: true,
+        }),
+        react(),
+    ],
+});
+```
+
+---
+
+## 📄 Creating Pages
+
+### 1. Add a route in `routes/web.php`
+
+```php
+use Inertia\Inertia;
+
+Route::get('/about', function () {
+    return Inertia::render('About');
+});
+```
+
+### 2. Create the page component
+
+Create `resources/js/Pages/About.jsx`:
+
+```jsx
+import { Head } from "@inertiajs/react";
+import { Button } from "@heroui/react";
+
+export default function About() {
+    return (
+        <div className="min-h-screen flex items-center justify-center">
+            <Head title="About" />
+            <div className="text-center space-y-4">
+                <h1 className="text-4xl font-bold">About Page</h1>
+                <Button color="primary">Hello from HeroUI!</Button>
+            </div>
+        </div>
+    );
+}
+```
+
+That's it — no manual routing on the frontend, Inertia handles it all.
+
+---
+
+## 🏗️ Building for Production
+
+```bash
+npm run build
+```
+
+This outputs optimized assets to `public/build/`. Deploy the full Laravel application as you normally would.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer     | Technology            | Version |
+| --------- | --------------------- | ------- |
+| Backend   | Laravel               | 10.x   |
+| Adapter   | Inertia.js            | 2.x    |
+| Frontend  | React                 | 19.x   |
+| Styling   | Tailwind CSS          | 4.x    |
+| UI Library| HeroUI                | 3.x    |
+| Animation | Framer Motion         | 12.x   |
+| Bundler   | Vite                  | 8.x    |
+| HTTP      | Axios                 | 1.x    |
+| Auth      | Laravel Sanctum       | 3.x    |
+
+---
+
+## 📚 Resources
+
+- [Laravel Documentation](https://laravel.com/docs/10.x)
+- [Inertia.js Documentation](https://inertiajs.com/)
+- [React Documentation](https://react.dev/)
+- [Tailwind CSS v4 Documentation](https://tailwindcss.com/docs)
+- [HeroUI Documentation](https://heroui.com/docs)
+- [Framer Motion Documentation](https://www.framer.com/motion/)
+- [Vite Documentation](https://vite.dev/)
+
+---
+
+## 📝 License
+
+This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
